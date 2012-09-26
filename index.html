@@ -2,9 +2,37 @@
 layout: default
 title : Home Page
 ---
+<section class="header">
+    <!-- Main hero unit for a primary marketing message or call to action -->
+    <div class="hero-unit">
+        <script type="text/javascript">
+            (function generateHeroMessage() {
+                jQuery(document).ready(function(){
+                    var messages = [
+                        'I am Lazy and I know it',
+                        'Never trust a computer you can’t throw out a window.',
+                        'Talk is cheap. Show me the code.',
+                        'In theory, theory and practice are the same. In practice, they’re not.',
+                        'Before software can be reusable it first has to be usable.',
+                        'It’s not a bug – it’s an undocumented feature.',
+                        'Programming is like sex. One mistake and you have to support it for the rest of your life.'
+                    ];
+                    jQuery('#hero_message').text(messages[Math.floor(Math.random() * messages.length)]);
+                    console.log('this');
+                });
+            })();
+        </script>
+        <h1 id="hero_message"></h1>
+    </div>
+</section>
+
 <section class="content">
-    <p>
-        Hello World!
-    </p>
-    from jekyll
+
+    {% for post in site.posts %}
+        <div class="span4">
+            <h2>{{ post.title }}</h2>
+            <p>{{ post.content | truncatewords: 40 }}</p>
+            <p><a class="btn" href="{{ post.url }}">View details &raquo;</a></p>
+        </div>
+    {% endfor %}
 </section>

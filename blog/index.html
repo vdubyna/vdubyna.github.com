@@ -7,12 +7,10 @@ title: Blog
   <h2>Blog Entries</h2>
 </section>
 
-<ul class="entries">
+<ul class="nav nav-tabs nav-stacked">
 {% for post in site.posts %}
-
     <li>
-      <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
+        <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
     </li>
-
 {% endfor %}
 </ul>
