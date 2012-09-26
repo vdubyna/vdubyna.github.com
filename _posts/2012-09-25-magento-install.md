@@ -1,6 +1,6 @@
 ---
 layout: blog_entry
-title: Magento install with Phing tool
+title: "Magento: install with Phing tool"
 ---
 
 Magento auto install with the help of Phing
