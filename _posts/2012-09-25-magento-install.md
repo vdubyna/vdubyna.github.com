@@ -38,16 +38,15 @@ of the command `$ which phing`
 
 Configuration
 -------------
-Then let's create a dev space for our cool tools. Create a directory *dev* in magento root folder.
+Then let's create a dev space for our cool tools. Create a directory *dev* in magento root folder. Also add priveleges
+to directories.
 
+	$ chmod -R 777 var skin media
 	$ mkdir dev
 	$ cd dev
 
 Now create 2 files *build.xml* and *build.properties*.
 And put the content below into them.
-
-> If you see this note than the configuration script is in development mode and ma not work.
-> Feel easy to [contact me](/about.html)
 
 <script src="https://gist.github.com/3775754.js"> </script>
 
@@ -57,4 +56,9 @@ Usage
 -----
 In PhpStorm you can use plugin to run targets (tasks).
 As for the console `phing -l` to see a list of targets and `phing mytarget` to run it.
+
+    $ phing install
+
+If you have got an error `sh: mysql: command not found` then replace `executable="mysql"` with a correct one for your
+system. Ex: `executable="/usr/local/bin/mysql"`
 
