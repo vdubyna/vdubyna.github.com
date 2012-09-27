@@ -1,6 +1,7 @@
 ---
 layout: blog_entry
 title: "MagentoEE: Exclude block from FPC"
+active: false
 ---
 
 When you write a custom block with a dynamic content and display it on

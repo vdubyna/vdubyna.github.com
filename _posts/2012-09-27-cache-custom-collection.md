@@ -1,6 +1,7 @@
 ---
 layout: blog_entry
 title: "Magento: Cache custom collection"
+active: false
 ---
 
 To speed up page loading the cache is the most powerful tool for this.
