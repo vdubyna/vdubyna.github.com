@@ -32,6 +32,9 @@ or
 To make you work even easier, there is integration with [PhpStorm](http://www.jetbrains.com/phpstorm/). There is a phing plugin. It will appear when you click in the sidebar on the *build.xml* and choose
 `Add as Phing build file`
 
+While first run it will ask you to input a directory to phing runner. To find it is easy with the help
+of the command `$ which phing`
+
 
 Configuration
 -------------
