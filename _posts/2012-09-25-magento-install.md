@@ -29,7 +29,7 @@ or
 
 	$ git clone https://github.com/magento/magento2.git
 
-To make you work even easier, there is integration with phpstorm. There is a phing plugin. It will appear when you click in the sidebar on the *build.xml* and choose
+To make you work even easier, there is integration with [PhpStorm](http://www.jetbrains.com/phpstorm/). There is a phing plugin. It will appear when you click in the sidebar on the *build.xml* and choose
 `Add as Phing build file`
 
 
