@@ -9,8 +9,10 @@ title: Blog
 
 <ul class="nav nav-tabs nav-stacked">
 {% for post in site.posts %}
+{% unless post.active == false %}
     <li>
         <a href="{{ post.url }}"><h3>{{ post.title }}</h3></a>
     </li>
+{% endunless %}
 {% endfor %}
 </ul>

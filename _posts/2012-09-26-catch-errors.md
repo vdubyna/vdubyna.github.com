@@ -1,6 +1,7 @@
 ---
 layout: blog_entry
 title: "Magento: catch errors"
+active: false
 ---
 
 Magento: Catch errors and warnings.

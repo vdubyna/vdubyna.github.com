@@ -1,6 +1,7 @@
 ---
 layout: blog_entry
 title: "Magento: Tests - quick start"
+active: false
 ---
 
 Tests - quick start
