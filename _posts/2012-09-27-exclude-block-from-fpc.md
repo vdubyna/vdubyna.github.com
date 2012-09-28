@@ -1,5 +1,5 @@
 ---
-layout: blog_entry
+layout: blog_aentry
 title: "MagentoEE: Exclude block from FPC"
 active: false
 ---

@@ -1,9 +1,9 @@
 ---
 layout: blog_entry
-title: "Magento: catch errors"
+title: "Magento: Errors and exseptions"
 ---
 
-Magento: Catch errors and warnings.
+Magento: Errors and exseptions.
 ===================================
 
 This is rather dificult for developers who are not familiar with magento ecosystem

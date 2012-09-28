@@ -3,7 +3,7 @@ layout: blog_entry
 title: "Magento: install with Phing tool"
 ---
 
-Magento auto install with the help of Phing
+Magento: install with Phing tool
 ===========================================
 Every day I have to do lot of experiments with modules, own code, configurations etc. And it is very useful to be able to restore clean Magento copy as fast as possible.
 The Phing is a a greate tool which helps to do that.
