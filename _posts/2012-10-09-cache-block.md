@@ -3,6 +3,9 @@ layout: blog_entry
 title: "Magento: Manage cache of blocks"
 ---
 
+Magento: Manage cache of blocks
+===============================
+
 Magento has good and flexible cache system on the level of blocks. It is based on
 [Zend Cache](http://framework.zend.com/manual/1.12/ru/zend.cache.html). But by default all blocks are excluded from cache
 even if they could be. How to tell magento cache my block and increase the spead of page loading.
