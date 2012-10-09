@@ -12,3 +12,4 @@ Solution
 
 We have to write own placeholder to teach Magento `PageCache` module not to touch our code and process it in a common way.
 
+
